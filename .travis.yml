@@ -1,0 +1,14 @@
+language: python
+python:
+  -  2.7
+
+before_install:
+  -  echo "new script ready"
+
+install:
+  -  apt-get install python3.6
+
+after_install:
+  -  echo "install successful"
+
+  
