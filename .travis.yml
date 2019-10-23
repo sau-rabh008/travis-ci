@@ -6,7 +6,7 @@ before_install:
   -  echo "new script ready"
 
 install:
-  -  apt-get install python3.6
+  -  npm i
 
 after_install:
   -  echo "install successful"
